@@ -1,0 +1,14 @@
+{
+  "_help": "Edit leagues to override tie-break order by league ID, or league ID plus :season name; supported rules: points, goalDifference, goalsFor, headToHeadPoints, headToHeadGoalDifference, headToHeadGoalsFor, fairPlayPoints. Use points to override win/draw/loss points and excludedStages to omit non-table phases by exact stage name. Restart the server after changes.",
+  "default": ["points", "goalDifference", "goalsFor"],
+  "leagues": {},
+  "defaultPoints": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "points": {},
+  "excludedStages": {
+    "cmr77dw7800g9rx06v6a4zya0": ["Botola Pro", "Final", "Relegation"]
+  }
+}
